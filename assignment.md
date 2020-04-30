@@ -73,8 +73,9 @@ I didn't write notes for this walkthrough, because I don't think that best captu
   * Compare the first element of one given array to the first element of the other
   * Push whichever element is smaller into the new array *and remove it from its original array* (or you could implement a partition counter for each array to track how many elements have already been assessed)
   * Repeat this process until one of the arrays is empty.
-  * Append the other array to the new array in its entirety.
+  * When this happens, append the other array to the new array in its entirety.
   * This new array now contains the elements from both arrays and, provided they were sorted beforehand, is also sorted.
+  
 Using these two methods, you can sort an array of any size, even if it's not sorted beforehand.
 
 Merge Sort is given an array and defined as follows:
